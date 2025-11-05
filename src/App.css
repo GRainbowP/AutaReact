@@ -1,5 +1,6 @@
 .container-fluid {
   background-color: #E8F5E9 !important;
+  padding: 0 !important;
 }
 
 .configText {
@@ -40,5 +41,5 @@
 
 .priceText {
   text-align: end !important; 
-  margin: 0;
+  margin: 0 !important;
 }
