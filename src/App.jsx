@@ -45,9 +45,8 @@ function App() {
   function handleEquipment() {
     setAuto(prevAuto => ({
       ...prevAuto,
-      dodatkowe_wyposazenie: [parkingSensorsCheck.current.value, climatronicCheck.current.value, navigationCheck.current.value]
+      dodatkowe_wyposazenie: [parkingSensorsCheck.current.checked, climatronicCheck.current.checked, navigationCheck.current.checked]
     }))
-    console.log(parkingSensorsCheck.current.value)
   }
 
   return (
