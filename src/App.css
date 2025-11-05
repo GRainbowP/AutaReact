@@ -1,0 +1,44 @@
+.container-fluid {
+  background-color: #E8F5E9 !important;
+}
+
+.configText {
+  font-size: 25px;
+  background-color: #1B5E20;
+  padding: 5px;
+}
+
+.otherText {
+  font-size: 18px;
+  color: #5D9B5D;
+  font-weight: bold;
+  margin: 5px;
+  text-align: center;
+}
+
+.selectLakier {
+  text-align: center !important;
+}
+
+.rimsSelect {
+  background-color: #9AEB9A;
+  padding: 50px;
+}
+
+.leftRim {
+  float: left;
+}
+
+.rightRim {
+  float: right;
+}
+
+.equipmentSelect {
+  text-align: start !important;
+  align-items: start !important;
+}
+
+.priceText {
+  text-align: end !important; 
+  margin: 0;
+}
